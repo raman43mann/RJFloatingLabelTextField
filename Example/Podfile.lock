@@ -1,0 +1,16 @@
+PODS:
+  - RJFloatingLabelTextField (0.1.0)
+
+DEPENDENCIES:
+  - RJFloatingLabelTextField (from `../`)
+
+EXTERNAL SOURCES:
+  RJFloatingLabelTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RJFloatingLabelTextField: 0f2b7c2bccdb22a0af153ecab9ecb033997465f5
+
+PODFILE CHECKSUM: c3d96b0da70ba521081c4b7ca71679b57e1e8230
+
+COCOAPODS: 1.13.0

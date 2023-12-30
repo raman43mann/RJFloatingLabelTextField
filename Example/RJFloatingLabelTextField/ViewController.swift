@@ -7,18 +7,31 @@
 //
 
 import UIKit
+import RJFloatingLabelTextField
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var tfEmailFld: RJTextFieldWithinBorder!
+    
+    @IBOutlet weak var tfName: RJTextFieldWithinBorder!
+    
+    @IBOutlet weak var textView: RJTextViewWithinBorder!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        tfEmailFld.setPlaceholderText(text: "Its text field Placeholder")
+        tfEmailFld.setupKeyboardType(type: .phonePad)
+        
+            
+        
+        
+        tfName.setPlaceholderText(text: "Placeholder for TextField")
+        tfName.setupRightPadding(image: UIImage(named: "imageViewBelow"))
+     
+        textView.setText(text: "Its text View")
+        
+    
     }
 
 }
-

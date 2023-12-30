@@ -1,30 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zGJ-GG-7of">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="JIu-z3-lbI">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="RJFloatingLabelTextField_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="whA-9L-uoP" customClass="ViewController" customModule="RJFloatingLabelTextField" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TvN-hf-pkY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhE-ve-HuW" customClass="RJTextFieldWithinBorder" customModule="RJFloatingLabelTextField">
+                                <rect key="frame" x="40" y="243.5" width="295" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="D1V-PV-vtU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ivi-0v-fLA" customClass="RJTextFieldWithinBorder" customModule="RJFloatingLabelTextField">
+                                <rect key="frame" x="40" y="360.5" width="295" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Bky-gP-eyG"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nZQ-gj-aKj" customClass="RJTextViewWithinBorder" customModule="RJFloatingLabelTextField">
+                                <rect key="frame" x="40" y="446" width="295" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="Ezw-li-xpe"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RJFloatingLabelTextField provide Custom TextField &amp; TextView within border" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0j3-hg-UpZ">
+                                <rect key="frame" x="20" y="60" width="335" height="143.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="NoK-YZ-ep8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="F0N-Kf-gcv"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="F0N-Kf-gcv" firstAttribute="trailing" secondItem="zhE-ve-HuW" secondAttribute="trailing" constant="40" id="2AI-KE-LOD"/>
+                            <constraint firstAttribute="trailing" secondItem="0j3-hg-UpZ" secondAttribute="trailing" constant="20" id="6hx-pr-IB3"/>
+                            <constraint firstItem="Ivi-0v-fLA" firstAttribute="top" secondItem="zhE-ve-HuW" secondAttribute="bottom" constant="47" id="B85-Vq-5Ny"/>
+                            <constraint firstItem="Ivi-0v-fLA" firstAttribute="trailing" secondItem="zhE-ve-HuW" secondAttribute="trailing" id="CTV-WN-aPj"/>
+                            <constraint firstItem="0j3-hg-UpZ" firstAttribute="leading" secondItem="TvN-hf-pkY" secondAttribute="leading" constant="20" id="IzO-fS-8rH"/>
+                            <constraint firstItem="nZQ-gj-aKj" firstAttribute="trailing" secondItem="Ivi-0v-fLA" secondAttribute="trailing" id="JLd-b8-EWU"/>
+                            <constraint firstItem="zhE-ve-HuW" firstAttribute="leading" secondItem="F0N-Kf-gcv" secondAttribute="leading" constant="40" id="Lzk-MS-Wya"/>
+                            <constraint firstItem="0j3-hg-UpZ" firstAttribute="top" secondItem="F0N-Kf-gcv" secondAttribute="top" constant="40" id="TMa-Zr-S2n"/>
+                            <constraint firstItem="nZQ-gj-aKj" firstAttribute="top" secondItem="Ivi-0v-fLA" secondAttribute="bottom" constant="100" id="WbN-Ey-lXn"/>
+                            <constraint firstItem="Ivi-0v-fLA" firstAttribute="leading" secondItem="zhE-ve-HuW" secondAttribute="leading" id="a03-4g-veK"/>
+                            <constraint firstItem="zhE-ve-HuW" firstAttribute="top" secondItem="0j3-hg-UpZ" secondAttribute="bottom" constant="40" id="fEx-aH-opr"/>
+                            <constraint firstItem="nZQ-gj-aKj" firstAttribute="leading" secondItem="Ivi-0v-fLA" secondAttribute="leading" id="gGE-kw-AYg"/>
+                            <constraint firstItem="0j3-hg-UpZ" firstAttribute="centerX" secondItem="F0N-Kf-gcv" secondAttribute="centerX" id="wS2-0o-SE3"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="yKb-Mw-gqd"/>
+                    <connections>
+                        <outlet property="textView" destination="nZQ-gj-aKj" id="Sfd-RR-HVF"/>
+                        <outlet property="tfEmail" destination="zhE-ve-HuW" id="BRD-sY-Pv3"/>
+                        <outlet property="tfEmailFld" destination="zhE-ve-HuW" id="9dU-s6-HSV"/>
+                        <outlet property="tfName" destination="Ivi-0v-fLA" id="chW-Ba-Cbg"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aUG-7J-qXE" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="985.49618320610682" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zhV-Ln-abc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="zGJ-GG-7of" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ra7-aD-iId">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whA-9L-uoP" kind="relationship" relationship="rootViewController" id="Nk1-zI-Mwm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIw-QJ-rFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58.778625954198468" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

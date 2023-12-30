@@ -7,7 +7,7 @@
 
 import UIKit
 
- class RJTextFieldWithinBorder: UIView {
+final class RJTextFieldWithinBorder: UIView {
     
     //MARK: - Outlets
     @IBOutlet weak private var placeHolderLabel: UILabel!

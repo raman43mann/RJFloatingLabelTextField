@@ -13,7 +13,10 @@
 		4FAD4BA73D86C8208BABDC1E641BE40B /* Pods-RJFloatingLabelTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78E509E8C10DE0F1B17FDFD3EC6D7AB /* Pods-RJFloatingLabelTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8308173EC4A3DB5BA377C5B7A40E7076 /* RJFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82447BE06DFE1A1966552C0A47828E1D /* RJFloatingLabelTextField-dummy.m */; };
 		83CB4F545F08C84923F7C9BD4052D283 /* Pods-RJFloatingLabelTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F10AB7D641FB39A49BC9BA8A6127D /* Pods-RJFloatingLabelTextField_Tests-dummy.m */; };
-		97A6308CEF5D102B0456A293F6283EA4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40105F9610D1172ADB54DBCFE6176F /* ReplaceMe.swift */; };
+		8CA9E05F2B6FF22C00917A0A /* RJTextFieldWithinBorder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9E05B2B6FF22C00917A0A /* RJTextFieldWithinBorder.xib */; };
+		8CA9E0602B6FF22C00917A0A /* RJTextViewWithinBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9E05C2B6FF22C00917A0A /* RJTextViewWithinBorder.swift */; };
+		8CA9E0612B6FF22C00917A0A /* RJTextViewWithinBorder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9E05D2B6FF22C00917A0A /* RJTextViewWithinBorder.xib */; };
+		8CA9E0622B6FF22C00917A0A /* RJTextFieldWithinBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9E05E2B6FF22C00917A0A /* RJTextFieldWithinBorder.swift */; };
 		A517CC87DD404A05F5518742E80808DE /* Pods-RJFloatingLabelTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E774B6A846E6F541505785C3889CFCE /* Pods-RJFloatingLabelTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD2F3FA3AB05F6BC73F4821EA9C1A6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E7A5535BFC63E6F6E099F7A0F180C890 /* RJFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A39B8B496AFC64861BAA453DF515140 /* RJFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +46,6 @@
 		17F8F3481EF58DA588382B09A045A6CC /* RJFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
 		1E5F10AB7D641FB39A49BC9BA8A6127D /* Pods-RJFloatingLabelTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJFloatingLabelTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		2438F8E5110116ECF133B9A7C1B210C5 /* RJFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RJFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
-		2E40105F9610D1172ADB54DBCFE6176F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RJFloatingLabelTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		381D8F719BEBADC501C614705D7A6886 /* RJFloatingLabelTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RJFloatingLabelTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		423467A0F09B2FCCC6FEC8234BF1DE1D /* Pods-RJFloatingLabelTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFloatingLabelTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4659E646005A3DE4B9632A56746BB627 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -59,6 +61,10 @@
 		736EB2882B0C412A30DC4BF23933BBBE /* RJFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		82447BE06DFE1A1966552C0A47828E1D /* RJFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
 		8A39B8B496AFC64861BAA453DF515140 /* RJFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		8CA9E05B2B6FF22C00917A0A /* RJTextFieldWithinBorder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RJTextFieldWithinBorder.xib; sourceTree = "<group>"; };
+		8CA9E05C2B6FF22C00917A0A /* RJTextViewWithinBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJTextViewWithinBorder.swift; sourceTree = "<group>"; };
+		8CA9E05D2B6FF22C00917A0A /* RJTextViewWithinBorder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RJTextViewWithinBorder.xib; sourceTree = "<group>"; };
+		8CA9E05E2B6FF22C00917A0A /* RJTextFieldWithinBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJTextFieldWithinBorder.swift; sourceTree = "<group>"; };
 		8CD8B0C3DC39A1B679CBAE34A50DFAC9 /* Pods-RJFloatingLabelTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFloatingLabelTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B10584AD7A765B7D640FA9E8D1912AC /* RJFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RJFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -215,7 +221,10 @@
 		EB3B7123EACD1AB95088193593BA14C5 /* RJFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				2E40105F9610D1172ADB54DBCFE6176F /* ReplaceMe.swift */,
+				8CA9E05E2B6FF22C00917A0A /* RJTextFieldWithinBorder.swift */,
+				8CA9E05B2B6FF22C00917A0A /* RJTextFieldWithinBorder.xib */,
+				8CA9E05C2B6FF22C00917A0A /* RJTextViewWithinBorder.swift */,
+				8CA9E05D2B6FF22C00917A0A /* RJTextViewWithinBorder.xib */,
 				AD84404ECDD0B3789249DC57025E2A2D /* Pod */,
 				84C1448B661A0B55D3B51C3BCD46812A /* Support Files */,
 			);
@@ -317,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0EB557FC264914845FB7EC8A62E20612 = {
+						LastSwiftMigration = 1500;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,6 +357,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA9E0612B6FF22C00917A0A /* RJTextViewWithinBorder.xib in Resources */,
+				8CA9E05F2B6FF22C00917A0A /* RJTextFieldWithinBorder.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +391,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA9E0602B6FF22C00917A0A /* RJTextViewWithinBorder.swift in Sources */,
 				399FEA8455A2D1582A66D89410CD69D5 /* Pods-RJFloatingLabelTextField_Example-dummy.m in Sources */,
+				8CA9E0622B6FF22C00917A0A /* RJTextFieldWithinBorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A6308CEF5D102B0456A293F6283EA4 /* ReplaceMe.swift in Sources */,
 				8308173EC4A3DB5BA377C5B7A40E7076 /* RJFloatingLabelTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +460,7 @@
 			baseConfigurationReference = 5B43574F3777BD0184F6887C7608B689 /* Pods-RJFloatingLabelTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -465,6 +483,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -476,6 +496,7 @@
 			baseConfigurationReference = 8CD8B0C3DC39A1B679CBAE34A50DFAC9 /* Pods-RJFloatingLabelTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -498,6 +519,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class RJTextFieldWithinBorder: UIView {
+open class RJTextFieldWithinBorder: UIView {
     
     //MARK: - Outlets
     @IBOutlet weak private var placeHolderLabel: UILabel!
@@ -19,7 +19,7 @@ final class RJTextFieldWithinBorder: UIView {
     
     
     //MARK: - Right Padding  Actions
-    var selectRightPadding : (()->())?
+    public var selectRightPadding : (()->())?
        
     @IBAction private func btnRightPaddingAction(_ sender: UIButton) {
         selectRightPadding?()
@@ -45,9 +45,9 @@ final class RJTextFieldWithinBorder: UIView {
 
 
     //MARK: - Text Field Call Backs
-    var shouldBeginEditingDelegate : (()->())?
-    var didBeginEditingDelegate : (()->())?
-    var shouldReturnDelegate : ((String)->Void)?
+    public var shouldBeginEditingDelegate : (()->())?
+    public var didBeginEditingDelegate : (()->())?
+    public var shouldReturnDelegate : ((String)->Void)?
   //  var shouldChangeCahracterinRangeDelegate : ((String)->Void)?
     typealias ShouldChangeCharactersCallback = (UITextField, NSRange, String) -> Bool
     var shouldChangeCharactersCallback: ShouldChangeCharactersCallback?
@@ -62,7 +62,7 @@ final class RJTextFieldWithinBorder: UIView {
         configTextField()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         configTextField()
@@ -117,33 +117,33 @@ final class RJTextFieldWithinBorder: UIView {
     
     //MARK: -  Setup View Border Color
     
-    func setupKeyboardType(type:UIKeyboardType){
+    public func setupKeyboardType(type:UIKeyboardType){
         textField.keyboardType = type
     }
     
-    func setUpBorderColor(active:Bool){
+    public func setUpBorderColor(active:Bool){
         self.layer.borderColor = (active ? borderSelectedColor : borderUnSelectedColor).cgColor
     }
     
     //MARK: -  Setup Placeholder Text
-    func setPlaceholderText(text:String){
+    public func setPlaceholderText(text:String){
         placeHolderLabel.text = text
     }
     
     //MARK: -  Setup Text as String or Attributed String
-    func setText(text:String){
+    public func setText(text:String){
         textField.text = text
         checkPlaceHolder()
     }
     
-    func setAttributedText(text:NSAttributedString){
+    public func setAttributedText(text:NSAttributedString){
         textField.attributedText = text
         checkPlaceHolder()
     }
     
     
     //MARK: -  Setup Right Padding
-    func setupRightPadding(image:UIImage?){
+    public func setupRightPadding(image:UIImage?){
         if let image {
             btnRightPadding.setImage(image, for: .normal)
             btnRightPadding.isHidden = false
@@ -207,7 +207,7 @@ final class RJTextFieldWithinBorder: UIView {
 
 extension RJTextFieldWithinBorder : UITextFieldDelegate{
     
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    public func textFieldDidBeginEditing(_ textField: UITextField) {
         if let wrapper = didBeginEditingDelegate{
             wrapper()
             
@@ -215,7 +215,7 @@ extension RJTextFieldWithinBorder : UITextFieldDelegate{
         setUpBorderColor(active: true)
         placeHolderPosition(isUp: true)
     }
-    func textFieldDidEndEditing(_ textField: UITextField) {
+    public func textFieldDidEndEditing(_ textField: UITextField) {
         
         if let wrapper = didEndEditingDelegate{
             wrapper(textField.text ?? "")
@@ -224,7 +224,7 @@ extension RJTextFieldWithinBorder : UITextFieldDelegate{
         placeHolderPosition(isUp: false)
     }
     
-    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+   public  func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         if let wrapper = shouldBeginEditingDelegate{
             wrapper()
             return false
@@ -232,7 +232,7 @@ extension RJTextFieldWithinBorder : UITextFieldDelegate{
         return true
     }
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+   public  func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         if let wrapper = self.shouldChangeCharactersCallback?(textField, range, string){
             return wrapper
@@ -250,7 +250,7 @@ extension RJTextFieldWithinBorder : UITextFieldDelegate{
         return true
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if let wrapper = shouldReturnDelegate{
             wrapper(textField.text ?? "")
             return true

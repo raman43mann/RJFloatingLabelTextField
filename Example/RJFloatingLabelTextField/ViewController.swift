@@ -6,11 +6,12 @@
 //  Copyright (c) 2024 raman43mann. All rights reserved.
 //
 
-
+import Foundation
 import UIKit
 import RJFloatingLabelTextField
 
 class ViewController: UIViewController {
+
     @IBOutlet weak var tfEmail: RJTextFieldWithinBorder!
     
     @IBOutlet weak var tfName: RJTextFieldWithinBorder!

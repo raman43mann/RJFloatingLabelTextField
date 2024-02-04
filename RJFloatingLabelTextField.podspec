@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: RJFloatingLabelTextField is a simple library in iOS for Floating placeholder in TextField and TextView
                        DESC
 
   s.homepage         = 'https://github.com/raman43mann/RJFloatingLabelTextField'
@@ -26,17 +26,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'raman43mann' => 'rjmann43@gmail.com' }
   s.source           = { :git => 'https://github.com/raman43mann/RJFloatingLabelTextField.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'RJFloatingLabelTextField/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'RJFloatingLabelTextField' => ['RJFloatingLabelTextField/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

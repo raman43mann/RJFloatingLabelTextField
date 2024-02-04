@@ -8,6 +8,7 @@
 
 
 import UIKit
+import RJFloatingLabelTextField
 
 class ViewController: UIViewController {
     @IBOutlet weak var tfEmail: RJTextFieldWithinBorder!

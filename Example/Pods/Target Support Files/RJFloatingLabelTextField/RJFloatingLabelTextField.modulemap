@@ -1,0 +1,6 @@
+framework module RJFloatingLabelTextField {
+  umbrella header "RJFloatingLabelTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

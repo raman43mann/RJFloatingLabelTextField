@@ -1,0 +1,6 @@
+framework module Pods_RJFloatingLabelTextField_Tests {
+  umbrella header "Pods-RJFloatingLabelTextField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

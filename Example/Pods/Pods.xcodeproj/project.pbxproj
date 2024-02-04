@@ -24,6 +24,10 @@
 		399FEA8455A2D1582A66D89410CD69D5 /* Pods-RJFloatingLabelTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41CB6DDFE93FDE1FEBC666137BD0819 /* Pods-RJFloatingLabelTextField_Example-dummy.m */; };
 		4FAD4BA73D86C8208BABDC1E641BE40B /* Pods-RJFloatingLabelTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F11B07FF8DBB87309C6ED89810E08B7 /* Pods-RJFloatingLabelTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83CB4F545F08C84923F7C9BD4052D283 /* Pods-RJFloatingLabelTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 537AFE68995DC653BAA50B08EC3C4779 /* Pods-RJFloatingLabelTextField_Tests-dummy.m */; };
+		8CA9E0672B6FFCF000917A0A /* RJTextViewWithinBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9E0632B6FFCF000917A0A /* RJTextViewWithinBorder.swift */; };
+		8CA9E0682B6FFCF000917A0A /* RJTextFieldWithinBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9E0642B6FFCF000917A0A /* RJTextFieldWithinBorder.swift */; };
+		8CA9E0692B6FFCF000917A0A /* RJTextFieldWithinBorder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9E0652B6FFCF000917A0A /* RJTextFieldWithinBorder.xib */; };
+		8CA9E06A2B6FFCF000917A0A /* RJTextViewWithinBorder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9E0662B6FFCF000917A0A /* RJTextViewWithinBorder.xib */; };
 		A517CC87DD404A05F5518742E80808DE /* Pods-RJFloatingLabelTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF09B154987CFDFFB268476E6BBE262 /* Pods-RJFloatingLabelTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD2F3FA3AB05F6BC73F4821EA9C1A6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -51,13 +55,17 @@
 		34719F2C1AB8330895491B3874F30A11 /* Pods-RJFloatingLabelTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJFloatingLabelTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		444B90D87FCDE7253EECDF4DDB789CF5 /* Pods-RJFloatingLabelTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFloatingLabelTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49F854ADCF8CDBBCE10A4147B0601734 /* RJFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
-		4D9259DB727D569FDD2D1BDB517A8A1F /* Pods-RJFloatingLabelTextField_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RJFloatingLabelTextField_Example"; path = Pods_RJFloatingLabelTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9259DB727D569FDD2D1BDB517A8A1F /* Pods_RJFloatingLabelTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJFloatingLabelTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		537AFE68995DC653BAA50B08EC3C4779 /* Pods-RJFloatingLabelTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJFloatingLabelTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		58501222901C5C8821F184B7BCBEB943 /* Pods-RJFloatingLabelTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJFloatingLabelTextField_Tests-Info.plist"; sourceTree = "<group>"; };
 		5914BC64FE6CBAE384BA77FE4DDA58B7 /* Pods-RJFloatingLabelTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFloatingLabelTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		63615C3EE48A5D54038623BEED19F7B0 /* Pods-RJFloatingLabelTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJFloatingLabelTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		69611EBBAC33DB90ABB8B0774635CF6F /* Pods-RJFloatingLabelTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJFloatingLabelTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CA9E0632B6FFCF000917A0A /* RJTextViewWithinBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RJTextViewWithinBorder.swift; path = ../../RJFloatingLabelTextField/Classes/RJTextViewWithinBorder.swift; sourceTree = "<group>"; };
+		8CA9E0642B6FFCF000917A0A /* RJTextFieldWithinBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RJTextFieldWithinBorder.swift; path = ../../RJFloatingLabelTextField/Classes/RJTextFieldWithinBorder.swift; sourceTree = "<group>"; };
+		8CA9E0652B6FFCF000917A0A /* RJTextFieldWithinBorder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RJTextFieldWithinBorder.xib; path = ../../RJFloatingLabelTextField/Classes/RJTextFieldWithinBorder.xib; sourceTree = "<group>"; };
+		8CA9E0662B6FFCF000917A0A /* RJTextViewWithinBorder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RJTextViewWithinBorder.xib; path = ../../RJFloatingLabelTextField/Classes/RJTextViewWithinBorder.xib; sourceTree = "<group>"; };
 		9CCED334CAC48D085185EE98960F5189 /* Pods-RJFloatingLabelTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RJFloatingLabelTextField_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF09B154987CFDFFB268476E6BBE262 /* Pods-RJFloatingLabelTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJFloatingLabelTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -116,7 +124,7 @@
 		3EB897FDCC548F7CA7C784D11DF3E820 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D9259DB727D569FDD2D1BDB517A8A1F /* Pods-RJFloatingLabelTextField_Example */,
+				4D9259DB727D569FDD2D1BDB517A8A1F /* Pods_RJFloatingLabelTextField_Example.framework */,
 				D91146174720EC56F6071CCB1B8F4429 /* Pods-RJFloatingLabelTextField_Tests */,
 			);
 			name = Products;
@@ -159,6 +167,10 @@
 		B19FC54BC074DEEF3128A344089C7248 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				8CA9E0642B6FFCF000917A0A /* RJTextFieldWithinBorder.swift */,
+				8CA9E0652B6FFCF000917A0A /* RJTextFieldWithinBorder.xib */,
+				8CA9E0632B6FFCF000917A0A /* RJTextViewWithinBorder.swift */,
+				8CA9E0662B6FFCF000917A0A /* RJTextViewWithinBorder.xib */,
 				52B14D0745E98F95ACD9F231353EBAE1 /* RJFloatingLabelTextField */,
 			);
 			name = "Development Pods";
@@ -246,7 +258,7 @@
 			);
 			name = "Pods-RJFloatingLabelTextField_Example";
 			productName = Pods_RJFloatingLabelTextField_Example;
-			productReference = 4D9259DB727D569FDD2D1BDB517A8A1F /* Pods-RJFloatingLabelTextField_Example */;
+			productReference = 4D9259DB727D569FDD2D1BDB517A8A1F /* Pods_RJFloatingLabelTextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1EBEFF88B93F1F28BD49487779F7E62F /* Pods-RJFloatingLabelTextField_Tests */ = {
@@ -276,6 +288,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0EB557FC264914845FB7EC8A62E20612 = {
+						LastSwiftMigration = 1500;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -302,6 +319,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA9E06A2B6FFCF000917A0A /* RJTextViewWithinBorder.xib in Resources */,
+				8CA9E0692B6FFCF000917A0A /* RJTextFieldWithinBorder.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA9E0672B6FFCF000917A0A /* RJTextViewWithinBorder.swift in Sources */,
 				399FEA8455A2D1582A66D89410CD69D5 /* Pods-RJFloatingLabelTextField_Example-dummy.m in Sources */,
+				8CA9E0682B6FFCF000917A0A /* RJTextFieldWithinBorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +375,7 @@
 			baseConfigurationReference = 5914BC64FE6CBAE384BA77FE4DDA58B7 /* Pods-RJFloatingLabelTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -376,6 +398,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -387,6 +411,7 @@
 			baseConfigurationReference = 0647B04EAFF733DD0ACE9034ACE432BD /* Pods-RJFloatingLabelTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -409,6 +434,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

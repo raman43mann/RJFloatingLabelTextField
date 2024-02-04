@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/RJFloatingLabelTextField.svg?style=flat)](https://cocoapods.org/pods/RJFloatingLabelTextField)
 [![Platform](https://img.shields.io/cocoapods/p/RJFloatingLabelTextField.svg?style=flat)](https://cocoapods.org/pods/RJFloatingLabelTextField)
 
+
+## Special Note 
+Hi folks , If you want to build any custom code(Common Alert, image picker, chat controller , custom view , TextFields/TextViews for reusability) for your application then you can contact me on linkedin or can send email (Subject of email should be "custom_code_#pb23") (check author detail on bottom of page).
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-![Simulator Screenshot - iPhone 15 Pro - 2024-02-04 at 23 20 00](https://github.com/raman43mann/RJFloatingLabelTextField/assets/154659783/04c2e9cf-aede-4e9d-9d99-852ba1c133b0)
 
+<img src="https://github.com/raman43mann/RJFloatingLabelTextField/assets/154659783/04c2e9cf-aede-4e9d-9d99-852ba1c133b0" width="400" height="800">
 
 
 ## Requirements
@@ -29,7 +33,7 @@ pod 'RJFloatingLabelTextField'
 
 ## Author
 
-raman43mann, rjmann43@gmail.com
+raman43mann, rjmann43@gmail.com , Linkedin : https://www.linkedin.com/in/raman-mann-957201154
 
 ## License
 

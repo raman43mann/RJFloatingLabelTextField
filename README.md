@@ -8,10 +8,15 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![Simulator Screenshot - iPhone 15 Pro - 2024-02-04 at 23 20 00](https://github.com/raman43mann/RJFloatingLabelTextField/assets/154659783/04c2e9cf-aede-4e9d-9d99-852ba1c133b0)
+
+
 
 ## Requirements
-Xcode 14 to onwards 
-Swift 4.0
+
+- Xcode 14 to onwards
+- iOS 10,*
+- Swift 4.0
 
 ## Installation
 

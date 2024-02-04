@@ -44,10 +44,10 @@
 		1E5F10AB7D641FB39A49BC9BA8A6127D /* Pods-RJFloatingLabelTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJFloatingLabelTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		2438F8E5110116ECF133B9A7C1B210C5 /* RJFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RJFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
 		2E40105F9610D1172ADB54DBCFE6176F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RJFloatingLabelTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		381D8F719BEBADC501C614705D7A6886 /* RJFloatingLabelTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RJFloatingLabelTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		381D8F719BEBADC501C614705D7A6886 /* RJFloatingLabelTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RJFloatingLabelTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		423467A0F09B2FCCC6FEC8234BF1DE1D /* Pods-RJFloatingLabelTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFloatingLabelTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4659E646005A3DE4B9632A56746BB627 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4D9259DB727D569FDD2D1BDB517A8A1F /* Pods-RJFloatingLabelTextField_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RJFloatingLabelTextField_Example"; path = Pods_RJFloatingLabelTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4659E646005A3DE4B9632A56746BB627 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4D9259DB727D569FDD2D1BDB517A8A1F /* Pods_RJFloatingLabelTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJFloatingLabelTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E774B6A846E6F541505785C3889CFCE /* Pods-RJFloatingLabelTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJFloatingLabelTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		52BF7F3F1CDC498A0147E6DE7F174889 /* Pods-RJFloatingLabelTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJFloatingLabelTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5B43574F3777BD0184F6887C7608B689 /* Pods-RJFloatingLabelTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFloatingLabelTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,15 +61,15 @@
 		8A39B8B496AFC64861BAA453DF515140 /* RJFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		8CD8B0C3DC39A1B679CBAE34A50DFAC9 /* Pods-RJFloatingLabelTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFloatingLabelTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B10584AD7A765B7D640FA9E8D1912AC /* RJFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RJFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB9187CACDB39E8F4DA10EE31E3F64E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB9187CACDB39E8F4DA10EE31E3F64E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF9228E401D0DD80489027609BEFE652 /* Pods-RJFloatingLabelTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJFloatingLabelTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		C4DB58E4742A1C6A9C5D3E70DF17EF2C /* Pods-RJFloatingLabelTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJFloatingLabelTextField_Tests-Info.plist"; sourceTree = "<group>"; };
 		D78E509E8C10DE0F1B17FDFD3EC6D7AB /* Pods-RJFloatingLabelTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJFloatingLabelTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		D8D666CC0F61A0FF1F2B28368A8DFDD4 /* Pods-RJFloatingLabelTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJFloatingLabelTextField_Example-Info.plist"; sourceTree = "<group>"; };
-		D91146174720EC56F6071CCB1B8F4429 /* Pods-RJFloatingLabelTextField_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RJFloatingLabelTextField_Tests"; path = Pods_RJFloatingLabelTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91146174720EC56F6071CCB1B8F4429 /* Pods_RJFloatingLabelTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJFloatingLabelTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BE8EA8D584AC5E54860BC7C944E6EA /* Pods-RJFloatingLabelTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJFloatingLabelTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F04E94556D82BF6A1313B462EC143D90 /* RJFloatingLabelTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RJFloatingLabelTextField; path = RJFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04E94556D82BF6A1313B462EC143D90 /* RJFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 		243BDAC45A8B00550CB6841A9B22AFAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D9259DB727D569FDD2D1BDB517A8A1F /* Pods-RJFloatingLabelTextField_Example */,
-				D91146174720EC56F6071CCB1B8F4429 /* Pods-RJFloatingLabelTextField_Tests */,
-				F04E94556D82BF6A1313B462EC143D90 /* RJFloatingLabelTextField */,
+				4D9259DB727D569FDD2D1BDB517A8A1F /* Pods_RJFloatingLabelTextField_Example.framework */,
+				D91146174720EC56F6071CCB1B8F4429 /* Pods_RJFloatingLabelTextField_Tests.framework */,
+				F04E94556D82BF6A1313B462EC143D90 /* RJFloatingLabelTextField.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			);
 			name = "Pods-RJFloatingLabelTextField_Example";
 			productName = Pods_RJFloatingLabelTextField_Example;
-			productReference = 4D9259DB727D569FDD2D1BDB517A8A1F /* Pods-RJFloatingLabelTextField_Example */;
+			productReference = 4D9259DB727D569FDD2D1BDB517A8A1F /* Pods_RJFloatingLabelTextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1EBEFF88B93F1F28BD49487779F7E62F /* Pods-RJFloatingLabelTextField_Tests */ = {
@@ -288,7 +288,7 @@
 			);
 			name = "Pods-RJFloatingLabelTextField_Tests";
 			productName = Pods_RJFloatingLabelTextField_Tests;
-			productReference = D91146174720EC56F6071CCB1B8F4429 /* Pods-RJFloatingLabelTextField_Tests */;
+			productReference = D91146174720EC56F6071CCB1B8F4429 /* Pods_RJFloatingLabelTextField_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BCC13EB732ADE7420E7E361A4E62A6D6 /* RJFloatingLabelTextField */ = {
@@ -306,7 +306,7 @@
 			);
 			name = RJFloatingLabelTextField;
 			productName = RJFloatingLabelTextField;
-			productReference = F04E94556D82BF6A1313B462EC143D90 /* RJFloatingLabelTextField */;
+			productReference = F04E94556D82BF6A1313B462EC143D90 /* RJFloatingLabelTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -591,8 +591,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -1,11 +1,12 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 
 
 target 'RJFloatingLabelTextField_Example' do
- pod 'RJFloatingLabelTextField', :path => '../'
+ pod 'RJFloatingLabelTextField', '0.1.0'
+# , :path => '../'
 
   target 'RJFloatingLabelTextField_Tests' do
     inherit! :search_paths

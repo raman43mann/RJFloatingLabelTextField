@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'RJFloatingLabelTextField'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'RJFloatingLabelTextField is a simple library in iOS for Floating placeholder in TextField and TextView'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: RJFloatingLabelTextField is a simple library in iOS for Floating placehold
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'raman43mann' => 'rjmann43@gmail.com' }
   s.source           = { :git => 'https://github.com/raman43mann/RJFloatingLabelTextField.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'RJFloatingLabelTextField/Classes/**/*'
   
 end
